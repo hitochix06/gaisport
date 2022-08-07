@@ -194,3 +194,7 @@ footer h5
 }
 
 
+
+.card-text1 {
+	align-content: flex-end;
+}
