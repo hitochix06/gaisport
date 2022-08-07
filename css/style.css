@@ -45,7 +45,7 @@ h5 {
     -webkit-text-fill-color: transparent;
     /* font-size: 24px; */
     animation: rainbow 8s ease infinite;
-    padding: 1px;
+    padding: 10px;
 }
 
 @-webkit-keyframes rainbow {
