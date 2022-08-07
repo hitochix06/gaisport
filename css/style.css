@@ -13,11 +13,7 @@ h5 {
 
 }
 
-.row>* {
-  padding-right: calc(var(--bs-gutter-x) * -0.5);
-  padding-left: calc(var(--bs-gutter-x) * -0.5);
 
-}
 
 
 /* personalise  Navigation */
@@ -87,8 +83,7 @@ h5 {
 /* margin-video */
 
 .mt120{
-  margin-top: 0px;
- 
+  margin-top: 10px;
 }
 
 
@@ -184,10 +179,18 @@ footer h5
 
 .texte1 {
 	text-align: center;
-	margin: 5px;
+	margin-top: 10px;
 	text-decoration: underline;
 	color: #0a58ca;
 	font-family: 'Oswald', sans-serif;
 		
 	
 }
+
+
+
+.card-text {
+	text-align: center;
+}
+
+
