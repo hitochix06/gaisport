@@ -180,3 +180,14 @@ footer h5
     margin: 0px 377px 0px 0px;
 
 }
+
+
+.texte1 {
+	text-align: center;
+	margin: 5px;
+	text-decoration: underline;
+	color: #0a58ca;
+	font-family: 'Oswald', sans-serif;
+		
+	
+}
