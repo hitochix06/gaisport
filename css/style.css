@@ -198,3 +198,8 @@ footer h5
 .card-text1 {
 	align-content: flex-end;
 }
+
+.card-text0 {
+	color: blue;
+	text-align: center;
+}
