@@ -17,6 +17,36 @@ h5 {
  }
 
 
+/* personaliser la card de bienvenue  */
+
+.texte1 {
+	text-align: center;
+	margin-top: 10px;
+	text-decoration: underline;
+	color: #0a58ca;
+	font-family: 'Oswald', sans-serif;
+		
+	
+}
+
+.card-text {
+	margin: 10px;
+}
+
+
+
+.card-text1 {
+	align-content: flex-end;
+  margin: 10px;
+
+}
+
+.card-text0 {
+	color: blue;
+	text-align: center;
+}
+
+
 
 /* personalise  Navigation */
 .b-example-divider {
@@ -178,32 +208,6 @@ footer h5
 
 }
 
-
-/* personaliser la card de bienvenue  */
-
-.texte1 {
-	text-align: center;
-	margin-top: 10px;
-	text-decoration: underline;
-	color: #0a58ca;
-	font-family: 'Oswald', sans-serif;
-		
-	
-}
-
-.card-text {
-	margin: 10px;
-}
-
-
-
-.card-text1 {
-	align-content: flex-end;
-  margin: 10px;
-
-}
-
-.card-text0 {
-	color: blue;
-	text-align: center;
+boutton1{
+  text-align: center;
 }
