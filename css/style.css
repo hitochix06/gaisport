@@ -17,6 +17,18 @@ h5 {
  }
 
 
+ /* personaliser  classe passée */
+.oldEvent{
+  position: relative;
+  top: 60px;
+  left: 75px;
+  transform: rotate(-35deg);
+  font-size: 30px;
+  line-height: 24px;
+  font-weight: 700;
+  opacity: 0.75;
+}
+
 /* personaliser la card de bienvenue  */
 
 .texte1 {
@@ -215,4 +227,5 @@ footer h5
 boutton1{
   text-align: center;
 }
+
 
