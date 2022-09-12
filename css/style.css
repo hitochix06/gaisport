@@ -41,6 +41,11 @@ h5 {
 	
 }
 
+
+.border-success {
+  --bs-border-opacity: 0;
+}
+
 .card-text {
 	margin: 10px;
 }
