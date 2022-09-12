@@ -188,10 +188,16 @@ nav .nav-link:hover {
 
 /*FOOTER*/
 
+
+.bi-arrow-up-square:hover {
+  box-shadow: 3px 2px 1px  #00000062;
+}
+
+
 footer
 {
     background: #0a58ca;
-    padding: 20px 0 40px;
+    padding: 20px;
 }
 footer .glyphicon
 {
@@ -221,7 +227,3 @@ footer h5
     margin: 0px 377px 0px 0px;
 
 }
-
-
-
-
