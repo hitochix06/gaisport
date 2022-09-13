@@ -196,24 +196,16 @@ nav .nav-link:hover {
 
 footer
 {
-    background: #0a58ca;
+    background: #003f9a;
     padding: 20px;
+    color: rgb(255, 255, 255);
 }
-footer .glyphicon
-{
-    font-size:  25px;
-    margin: 20px;
-    color: #6e9dc3;
-    height: 30px;
-}
-footer .glyphicon:hover
-{
-    font-size:  27px;
-}
+
 footer h5
 {
     color: #fff;
     font-weight: normal;
+    margin: 10px;
 }
 
 .form-group {
@@ -225,5 +217,18 @@ footer h5
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     margin: 0px 377px 0px 0px;
+
+}
+
+/* barre_reseaux */
+
+.barre_reseaux{
+  background-color: #0a58ca;
+  text-align: center;
+  color: #fff;
+  font-weight: normal;
+  margin-bottom: 20px;
+  padding: 10px;
+
 
 }
