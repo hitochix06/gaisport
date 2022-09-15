@@ -290,5 +290,9 @@ footer h5 {
   background-image: url(/image/font-ecran.png);
   padding: 50px;
   background-size: cover;
+}
 
+.bouton_form{
+  text-align: center;
+  margin: 10px;
 }
