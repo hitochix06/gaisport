@@ -287,12 +287,12 @@ footer h5 {
 /* personalisation fichier contact */
 
 .formulaire {
-  background-image: url(https://mobimg.b-cdn.net/v3/fetch/87/87c93aa33275b4c8c73637ad3fbee836.jpeg?w=470&r=0.5625);
+  background-image: url(/image/fontecran.png);
   padding: 50px;
   background-size: cover;
 }
 
-.bouton_form {
+.bouton_form{
   text-align: center;
   margin: 10px;
 }
