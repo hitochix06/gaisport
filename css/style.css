@@ -286,8 +286,8 @@ footer h5 {
 
 /* personalisation fichier contact */
 
-.containe {
-  background-image: url(/image/fontecran.png);
+.formulaire {
+  background-image: url(/image/logo.png);
   padding: 50px;
   background-size: cover;
 }
