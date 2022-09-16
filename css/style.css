@@ -287,7 +287,7 @@ footer h5 {
 /* personalisation fichier contact */
 
 .formulaire {
-  background-image: url(/image/fontecran.png);
+  background-image: url(image/fontecran.png);
   padding: 50px;
   background-size: cover;
 }
