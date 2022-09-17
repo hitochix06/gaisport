@@ -296,3 +296,7 @@ footer h5 {
   text-align: center;
   margin: 10px;
 }
+
+.border-light{
+  --bs-border-opacity:0;
+}
