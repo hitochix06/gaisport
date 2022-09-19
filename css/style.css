@@ -300,3 +300,16 @@ footer h5 {
 .border-light{
   --bs-border-opacity:0;
 }
+
+/* personalisation page lien  */
+
+.persona_titre{
+  text-align: center;
+  text-shadow:2px 2px 5px rgb(150 150 150 / 90%);
+  margin: 20px;
+  text-decoration-line: underline;
+  text-decoration-color:rgba(0, 0, 0, 0.2 );
+  font-size: 30px;
+  color: black;
+}
+
