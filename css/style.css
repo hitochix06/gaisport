@@ -56,6 +56,11 @@ h1 {
 }
 
 
+.card-img{
+  height: auto;
+}
+
+
 
 .card-text1 {
   align-content: flex-end;
