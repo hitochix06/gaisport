@@ -4,12 +4,17 @@
   padding: 0px;
 }
 
-p{font-family: Arial, Helvetica, sans-serif;}
+#personatitre{
+font-size: 17px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 h5 {
-  margin-top: 0;
-  margin-bottom: 0rem;
-  font-size: inherit;
+  text-align: center;
+  font-size: 15px;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   color: #0a58ca;
 
@@ -347,35 +352,42 @@ a {
 .gradient-custom-2 {
   /* fallback for old browsers */
   background: #e2830e;
-  
+
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
-  
+
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
-  }
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
   .gradient-form {
-  height: 100vh !important;
+    height: 100vh !important;
   }
-  }
-  @media (min-width: 769px) {
+}
+
+@media (min-width: 769px) {
   .gradient-custom-2 {
-  border-top-right-radius: .3rem;
-  border-bottom-right-radius: .3rem;
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
   }
-  }
+}
 
-  #titre_connex{
-    color: #003f9a;
-  }
+#titre_connex {
+  color: #003f9a;
+}
 
-  .login{
-    background-image: url(/image/fontecran.png);
-    padding: 50px;
-    background-size: cover;
-  }
-  .card{
-border: none;
-  }
+.login {
+  background-image: url(/image/fontecran.png);
+  padding: 50px;
+  background-size: cover;
+}
+
+.card {
+  border: none;
+}
+
+#personaicon {
+  font-size: 40px;
+  padding: 10px;
+}
