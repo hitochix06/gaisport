@@ -77,47 +77,54 @@
   <!-- creation formulaire  -->
   <section class="formulaire ">
     <div class="container">
-      <div class="shadow-lg p-3 mb-5 bg-white rounded">
-        <div class="row g-0">
+      <div class="shadow-lg p-3 mb-5 ">
+        <div class="row">
           <div class="col">
             <div class="card-body">
-              <h5 style="text-align: center; font-size: 40px; text-decoration: underline; margin: 10px;">Contact</h5>
-              <form class="row g-3">
-                <div class="col-md-6">
-                  <label for="inputNom" class="form-label">Nom</label>
-                  <input type="text" class="form-control" id="inputNom" placeholder="Nom">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputprenom" class="form-label">Prénom</label>
-                  <input type="text" class="form-control" id="inputPassword4" placeholder="Prénom">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputEmail4" class="form-label">Email</label>
-                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
-                </div>
-                <div class="col-md-6">
-                  <label for="inputState" class="form-label">Activite</label>
-                  <select id="inputState" class="form-select">
-                    <option selected>General</option>
-                    <option>Badminton </option>
-                    <option>Natation</option>
-                    <option>Volley-ball </option>
-                    <option>Bodysculpt</option>
-                    <option>Rando - Ski</option>
-                    <option>Running </option>
-                    <option>Yoga</option>
-                    <option>vélo</option>
-                  </select>
-                </div>
-                <div class="mb-6">
-                  <label for="validationTextarea" class="form-label">Questions / commentaires</label>
-                  <textarea class="form-control" id="validationTextarea" placeholder="Ecrire ici" required></textarea>
-                  <div class="invalid-feedback">
-                    Please enter a message in the textarea.
-                  </div>
-                  <div class="bouton_form">
-                    <div class="col-12">
-                      <button type="submit" class="btn btn-outline-primary btn-lg">Envoi</button>
+              <div id="titre_formu">
+                <h1>Contact</h1>
+              </div>
+              <form>
+                <div id="persona_texte">
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="validationinputNom" class="form-label">Nom</label>
+                      <input type="text" class="form-control" id="validationinputNom" placeholder="Nom" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationinputprenom" class="form-label">Prénom</label>
+                      <input type="text" class="form-control" id="validationinputprenom" placeholder="Prénom" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationinputEmail" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="validationinputEmail" placeholder="Email" required>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputState" class="form-label">Activite</label>
+                      <select id="inputState" class="form-select">
+                        <option selected>General</option>
+                        <option>Badminton </option>
+                        <option>Natation</option>
+                        <option>Volley-ball </option>
+                        <option>Bodysculpt</option>
+                        <option>Rando - Ski</option>
+                        <option>Running </option>
+                        <option>Yoga</option>
+                        <option>vélo</option>
+                      </select>
+                    </div>
+                    <div class="mb-6">
+                      <label for="validationTextarea" class="form-label">Questions / commentaires</label>
+                      <textarea class="form-control" id="validationTextarea" placeholder="Ecrire ici"
+                        required></textarea>
+                      <div class="invalid-feedback">
+                        Please enter a message in the textarea.
+                      </div>
+                      <div class="bouton_form">
+                        <div class="col-12">
+                          <button type="submit" class="btn btn-light btn-lg">Envoi</button>
+                        </div>
+                      </div>
                     </div>
                   </div>
               </form>
@@ -126,6 +133,7 @@
         </div>
       </div>
   </section>
+
 
   <footer class="text-center">
     <h5>Copyright 2022©ASSOCIATION-GROUPE-AZUR-INTER-SPORTS-NICE</h5>
