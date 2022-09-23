@@ -366,7 +366,16 @@ a {
   border-bottom-right-radius: .3rem;
   }
   }
-  
+
   #titre_connex{
     color: #003f9a;
+  }
+
+  .login{
+    background-image: url(/image/fontecran.png);
+    padding: 50px;
+    background-size: cover;
+  }
+  .card{
+border: none;
   }
