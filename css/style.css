@@ -10,7 +10,9 @@ font-size: 17px;
 
 p {
   font-family: Arial, Helvetica, sans-serif;
+  
 }
+
 
 h5 {
   text-align: center;
@@ -315,7 +317,7 @@ footer h5 {
 
 #titre_formu {
   text-align: center;
-  background-color: #003f9a;
+  /* background-color: #003f9a; */
   border-radius: 5px;
   padding: 5px;
   color: white;
@@ -382,10 +384,9 @@ a {
   padding: 50px;
   background-size: cover;
 }
-
-.card {
+/* .card {
   border: none;
-}
+} */
 
 #personaicon {
   font-size: 40px;
